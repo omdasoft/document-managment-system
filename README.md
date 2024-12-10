@@ -46,15 +46,14 @@ Follow these steps to set up the project locally:
    ```bash
    cp .env.example .env
    ```
-
-4. Generate the application key:
-   ```bash
-   php artisan key:generate
-   ```
-
-5. Install PHP dependencies:
+   
+4. Install PHP dependencies:
    ```bash
    composer install
+
+5. Generate the application key:
+   ```bash
+   php artisan key:generate
    ```
 
 6. Create the primary database and module-specific databases as needed.
